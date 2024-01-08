@@ -1,0 +1,6 @@
+>> Initialization of maven project
+>> Git Initialization
+
+>> practicing anonymousToLamda expression
+
+>>
