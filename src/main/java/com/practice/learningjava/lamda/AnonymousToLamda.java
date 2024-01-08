@@ -1,5 +1,7 @@
 package com.practice.learningjava.lamda;
 
+//https://www.youtube.com/watch?v=FTk7bGPAYpo
+
 interface AnonyDemo {
     void method1();
 
