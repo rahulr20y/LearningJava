@@ -382,7 +382,7 @@ public class LamdaFuncPractice {
         myThread2.start();
 
         // LamdaFuncPractice::printMessage == ()->printMessage
-        Thread myThread3 = new Thread(LamdaFuncPractice::printMessage);
+        Thread myThread3 = new Thread(LamdaFuncPractice::printMessage); //method refrence
         myThread3.start();
 
         // performConditionallyWithPredicateAndConsumer(people, (p) -> true, p ->
