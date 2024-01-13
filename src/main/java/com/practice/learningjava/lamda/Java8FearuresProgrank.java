@@ -162,7 +162,7 @@ class Bike implements Vehicle {
 
 }
 
-public class ProgrankJava8features {
+public class Java8FearuresProgrank {
 
     public static void result(int a, int b, Operation operation) {
         System.out.println("Arithmetic Operation of a and b is " +
