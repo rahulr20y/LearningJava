@@ -1,4 +1,4 @@
-package com.practice.learningjava.lamda;
+package com.practice.learningjava.Java8features;
 
 import java.util.ArrayList;
 import java.util.Arrays;
