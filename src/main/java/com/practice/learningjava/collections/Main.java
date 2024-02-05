@@ -27,6 +27,9 @@ public class Main {
          * eg. Fail Fast and Fail Safe Iterator in Java
          * 
          * 
+         * https://www.geeksforgeeks.org/collections-in-java-2/
+         * https://www.javatpoint.com/collections-in-java
+         * 
          */
 
     }
