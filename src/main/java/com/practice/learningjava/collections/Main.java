@@ -1,4 +1,4 @@
-package com.practice.learningjava.collection;
+package com.practice.learningjava.collections;
 
 public class Main {
     public static void main(String[] args) {

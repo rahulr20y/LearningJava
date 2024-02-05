@@ -1,4 +1,4 @@
-package com.practice.learningjava.collection.examples;
+package com.practice.learningjava.collections.examples;
 
 import java.util.ArrayList;
 import java.util.Arrays;

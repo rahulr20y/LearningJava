@@ -1,4 +1,4 @@
-package com.practice.learningjava.collection;
+package com.practice.learningjava.collections;
 
 import java.util.Comparator;
 import java.util.Iterator;
