@@ -187,5 +187,19 @@ public class ThreadCreate {
             e.printStackTrace();
         }
         // Project loom -fibers
+
+        /*
+         * -- Runnable is better as it can implements (multiple interface as multiple
+         * inheritance is allowed in interfaces) thread and can extend another class
+         * which will not be possible while extending thread class(multiple inheritance
+         * in not allowed in java)
+         * -- run() vs start()
+         * -- Also we cannot call run method directly if we are calling run method then
+         * it will behave as normal class on current thread, it is beacuse while calling
+         * start function
+         * of thread internally it is creating a new thread for us and calling run func
+         * -- Only one time we can call thread.start() function
+         * -- Advance Topics: Executor Framework , Thread Pool , Atomic Integers
+         */
     }
 }

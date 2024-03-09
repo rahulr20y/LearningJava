@@ -74,6 +74,7 @@ public class CollectionExamples {
         // Collections can only hold Objects - not primitives.
         List<Integer> integers = new ArrayList<Integer>();
 
+        // collections can only store objects not primitive
         // code like below is permitted because of auto boxing
         integers.add(5);// new Integer(5)
         // 5 is auto boxed into Integer object and stored in ArrayList

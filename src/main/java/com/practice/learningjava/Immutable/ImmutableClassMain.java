@@ -82,7 +82,10 @@ public class ImmutableClassMain {
          * And class members are initialized only once using constructor.
          * There should not be any setters, which is generally used to change the value.
          * Just getter method and returns copy of the member variable.
-         * Example: String, Wrapper Classes etc.
+         * Example: String, Wrapper Classes etc
+         * 
+         * -- When a method is declared with final keyword, it is called a final method
+         * in Java. A final method cannot be overridden. .
          */
         System.out.println("Immutable Class Example...");
         List<Object> list = new ArrayList<>();
