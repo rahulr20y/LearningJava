@@ -5,7 +5,10 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
+import java.util.ListIterator;
 import java.util.Map;
+
+import javax.swing.text.html.HTMLDocument.Iterator;
 
 class Pair {
     public String key;
@@ -59,8 +62,8 @@ public class Morgan {
         List<Pair> newList = new ArrayList<>();
         for (String key : h.keySet()) {
             Pair p = new Pair(key, h.get(key));
-            p.key = key;
-            p.value = h.get(key);
+            // p.key = key;
+            // p.value = h.get(key);
             newList.add(p);
         }
 
@@ -100,6 +103,8 @@ public class Morgan {
             if (a.getValue() == b.getValue()) {
                 return a.getKey().compareTo(b.getKey());
             }
+            // return a.getValue().compareTo(b.getValue()); //-error compareTo() method is
+            // only for class objects and not for primitive type objects
             return -1 * (a.getValue() - b.getValue());
         });
 
@@ -132,6 +137,24 @@ public class Morgan {
 
         List<Integer> list3 = new ArrayList<>(List.of(10, 11, 12));
         System.out.println(list3);
+
+        // converting list to array
+        Integer[] list4 = list3.toArray(new Integer[0]);
+        for (int a : list4) {
+            System.out.println(a);
+        }
+
+        // now again from array to arrayList
+        List<Integer> list5 = Arrays.asList(list4);
+        System.out.println(list5);
+        // List Iterator
+        ListIterator<Integer> itr = list5.listIterator();
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
+        }
+        while (itr.hasPrevious()) {
+            System.out.println(itr.previous());
+        }
 
     }
 }
