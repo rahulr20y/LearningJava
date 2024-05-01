@@ -232,7 +232,7 @@ public class CollectionsExample2 {
 
         // Set<Student> studentsSet2 = new TreeSet<>();// will get sort based on
         // compareTo function in student class
-        Set<Student> studentsSet2 = new TreeSet<>((a, b) -> a.getPhysics() - b.getPhysics());
+        Set<Student> studentsSet2 = new TreeSet<>((a, b) -> a.getPhysics() - b.getPhysics());// passing own comparator
         studentsSet2.add(new Student(40, 40));
         studentsSet2.add(new Student(30, 40));
         studentsSet2.add(new Student(60, 50));

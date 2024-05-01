@@ -8,8 +8,6 @@ import java.util.List;
 import java.util.ListIterator;
 import java.util.Map;
 
-import javax.swing.text.html.HTMLDocument.Iterator;
-
 class Pair {
     public String key;
     public int value;
